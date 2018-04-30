@@ -1,0 +1,11 @@
+{
+  "name": "nodejsmodule1exercise",
+  "version": "1.0.0",
+  "description": "A possible solution to covert CSV to JSON for submitting for the course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayushya",
+  "license": "ISC"
+}
