@@ -21,5 +21,5 @@ linereader.on('close', (error) => {
         return;
     }
     console.log('Conversion completed successfully');
-    console.log(JSON.stringify(JSON_STORE, null, 2));
+    fs.writeFileSync('output.json', JSON.stringify(JSON_STORE, null, 2));
 })
